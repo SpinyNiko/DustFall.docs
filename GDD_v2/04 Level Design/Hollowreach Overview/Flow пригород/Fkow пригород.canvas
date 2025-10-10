@@ -1,0 +1,37 @@
+{
+	"nodes":[
+		{"id":"66d421d7c38f14da","x":-160,"y":-360,"width":250,"height":100,"type":"text","text":"##### Фаза 1\nПрибытие на поезде"},
+		{"id":"0b1cd913760863cf","type":"text","text":"\nПолучение задания","x":-460,"y":-80,"width":250,"height":60},
+		{"id":"b52832ec191eca5d","type":"text","text":"\nКооперативная подготовка","x":-460,"y":60,"width":250,"height":60},
+		{"id":"93dbb194ada0c601","type":"text","text":"##### Фаза 2\nИсследование локации","x":-460,"y":200,"width":250,"height":100},
+		{"id":"0c6db62cb9c336f6","type":"text","text":"\n##### Обнаружена угроза?","x":-460,"y":380,"width":250,"height":60},
+		{"id":"7aa8e5c58793bb7c","type":"text","text":"##### Да\nБой / Скрытность","x":-710,"y":560,"width":250,"height":100},
+		{"id":"4524c46f680e95ba","type":"text","text":"\nДостижение основной цели","x":-460,"y":760,"width":250,"height":60},
+		{"id":"a017e9968671d0c9","type":"text","text":"\nКлючевое событие / Босс","x":-460,"y":900,"width":250,"height":76},
+		{"id":"333f0f2de4afdb1d","type":"text","text":"##### Фаза 3\nСигнал на эвакуацию","x":-460,"y":1080,"width":250,"height":100},
+		{"id":"551129aa4e5f34ef","type":"text","text":"\nДинамическое отступление","x":-460,"y":1260,"width":250,"height":76},
+		{"id":"3e049946d0327ebe","type":"text","text":"\nЗащита поезда","x":-460,"y":1420,"width":250,"height":76},
+		{"id":"f040b434a476aa80","type":"text","text":"##### Фаза 4\nВозвращение на поезд","x":-460,"y":1580,"width":250,"height":100},
+		{"id":"83005212aeebf903","type":"text","text":"\nКрафтинг и улучшение","x":-460,"y":1760,"width":250,"height":76},
+		{"id":"cb78c07444f7c2bc","type":"text","text":"\nОтправка в следующую локацию","x":-210,"y":1960,"width":250,"height":60},
+		{"id":"772aa5dc74a68137","type":"text","text":"##### Нет\nСбор ресурсов","x":-210,"y":560,"width":250,"height":100}
+	],
+	"edges":[
+		{"id":"b990fdec2ecc3614","fromNode":"66d421d7c38f14da","fromSide":"bottom","toNode":"0b1cd913760863cf","toSide":"top"},
+		{"id":"02bdf99d731e8ff5","fromNode":"0b1cd913760863cf","fromSide":"bottom","toNode":"b52832ec191eca5d","toSide":"top"},
+		{"id":"4b0cffd38c45e00d","fromNode":"b52832ec191eca5d","fromSide":"bottom","toNode":"93dbb194ada0c601","toSide":"top"},
+		{"id":"1af76392ca17f134","fromNode":"0c6db62cb9c336f6","fromSide":"bottom","toNode":"772aa5dc74a68137","toSide":"top"},
+		{"id":"52fd849ce48d2b98","fromNode":"0c6db62cb9c336f6","fromSide":"bottom","toNode":"7aa8e5c58793bb7c","toSide":"top"},
+		{"id":"c2bf2957bc51efa8","fromNode":"93dbb194ada0c601","fromSide":"bottom","toNode":"0c6db62cb9c336f6","toSide":"top"},
+		{"id":"c3640a8c3894181f","fromNode":"772aa5dc74a68137","fromSide":"bottom","toNode":"4524c46f680e95ba","toSide":"top"},
+		{"id":"9f3dbe66dd771158","fromNode":"7aa8e5c58793bb7c","fromSide":"bottom","toNode":"4524c46f680e95ba","toSide":"top"},
+		{"id":"de38b017e2f176f8","fromNode":"4524c46f680e95ba","fromSide":"bottom","toNode":"a017e9968671d0c9","toSide":"top"},
+		{"id":"6c5113b78ce747b6","fromNode":"a017e9968671d0c9","fromSide":"bottom","toNode":"333f0f2de4afdb1d","toSide":"top"},
+		{"id":"81aeea3d0620c995","fromNode":"333f0f2de4afdb1d","fromSide":"bottom","toNode":"551129aa4e5f34ef","toSide":"top"},
+		{"id":"e44a2623ade8b45a","fromNode":"551129aa4e5f34ef","fromSide":"bottom","toNode":"3e049946d0327ebe","toSide":"top"},
+		{"id":"48bf2f52edd21f9d","fromNode":"3e049946d0327ebe","fromSide":"bottom","toNode":"f040b434a476aa80","toSide":"top"},
+		{"id":"f3579f7cf581455d","fromNode":"f040b434a476aa80","fromSide":"bottom","toNode":"83005212aeebf903","toSide":"top"},
+		{"id":"ac01f245576d94ca","fromNode":"83005212aeebf903","fromSide":"bottom","toNode":"cb78c07444f7c2bc","toSide":"top"},
+		{"id":"aa0ad4fa859bc72e","fromNode":"cb78c07444f7c2bc","fromSide":"right","toNode":"66d421d7c38f14da","toSide":"right"}
+	]
+}

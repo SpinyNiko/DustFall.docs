@@ -1,0 +1,41 @@
+{
+	"nodes":[
+		{"id":"99b88c666ad05267","type":"text","text":"Задача 2:\nДобраться до кузни","x":-420,"y":100,"width":250,"height":80},
+		{"id":"bde38cd9b902f092","type":"text","text":"Задача 4\nПоговорить с Марвином","x":-420,"y":560,"width":250,"height":120},
+		{"id":"0cce1326637c4db6","type":"text","text":"Задача 3\nДональд отправляет Джеральда за кожей к Марвину. Джеральду нужно дойти до прилавка Марвина","x":-420,"y":300,"width":250,"height":180},
+		{"id":"4b3c13497f8c8ed1","type":"text","text":"Во время диалога с Марвином Джеральд жалуется что всем безразлично что провизия и медикаменты уходят быстрее чем они находят новые. ","x":30,"y":515,"width":250,"height":210},
+		{"id":"0217ce4d11308e44","type":"text","text":"Марвин: \"Джери, я понимаю твое беспокойство. Но к сожалению ничем могу помочь. Держи шкуру\"","x":390,"y":515,"width":250,"height":210},
+		{"id":"c9e2c987e50eeeda","type":"text","text":"Джеральд берет шкуру и собирается уходить. ","x":770,"y":578,"width":250,"height":85},
+		{"id":"ba4335902291e303","type":"text","text":"Марвин: \"Хотя постой, я конечно не уверен, да и слухи разные ходят, есть карта, как поговаривают, где отмечены ИНТЕРЕСНЫЕ МЕСТА\" ","x":1130,"y":516,"width":250,"height":210},
+		{"id":"fb88d0d754033d34","type":"text","text":"Марвин: \"Правда находится она на лесопильной станции. Насколько ты знаешь, там дохера зараженных, поэтому можешь считать - что я тебе этого не говорил\" ","x":1490,"y":500,"width":250,"height":240},
+		{"id":"50f33312cf77c68a","type":"text","text":"Джеральд уходит обратно в кузницу","x":1830,"y":590,"width":250,"height":60},
+		{"id":"a9651a82e04a145b","type":"text","text":"Задача 5\nОтнести кожу обратно к Дональду","x":-420,"y":820,"width":250,"height":129},
+		{"id":"b3d6cc73f714568f","type":"text","text":"Староста игнорирует идеи Джеральда и напоминает ему что ему пора помочь Дональду в кузне","x":390,"y":-193,"width":250,"height":136},
+		{"id":"3b40ef353d2c375b","type":"text","text":"В разговоре со старостой Джеральд пытается объяснить что нужно предпринимать какие-то меры и найти новые источники для пропитания, а не сидеть на месте и ждать чуда. Создать экспедицию для изучения новых мест чтобы найти новые источники провизии.","x":30,"y":-301,"width":250,"height":351},
+		{"id":"0e891826eedf8fda","type":"text","text":"Спавн и передача управления","x":-420,"y":-320,"width":250,"height":73},
+		{"id":"a88cdd5a55d08aef","type":"text","text":"Задача 1:\nПоговорить со старостой","x":-420,"y":-166,"width":250,"height":80},
+		{"id":"3e9077dd199bb88c","type":"text","text":"Нужно зайти домой и оставить свои записи, переодеться для кузницы.","x":30,"y":90,"width":250,"height":100},
+		{"id":"9ea047d36536756e","type":"text","text":"По пути.\nРазговор по рации: \"Ребята, у меня есть идея. Собираемся у водокачки в 16:00\"","x":30,"y":812,"width":250,"height":145},
+		{"id":"f08a1436920da50d","type":"text","text":"Пришел и передал кожу Дональду","x":390,"y":841,"width":250,"height":88},
+		{"id":"85d25badb480501d","x":-420,"y":1080,"width":250,"height":60,"type":"text","text":"Задача 6\nПрийти на место сбора"}
+	],
+	"edges":[
+		{"id":"9763ee084d138e54","fromNode":"0e891826eedf8fda","fromSide":"bottom","toNode":"a88cdd5a55d08aef","toSide":"top"},
+		{"id":"b484dfa20676d93c","fromNode":"a88cdd5a55d08aef","fromSide":"bottom","toNode":"99b88c666ad05267","toSide":"top"},
+		{"id":"9f96717f90ed13a8","fromNode":"99b88c666ad05267","fromSide":"bottom","toNode":"0cce1326637c4db6","toSide":"top"},
+		{"id":"5f55bff4d95dea2b","fromNode":"a88cdd5a55d08aef","fromSide":"right","toNode":"3b40ef353d2c375b","toSide":"left"},
+		{"id":"f3c0886a064b37a5","fromNode":"3b40ef353d2c375b","fromSide":"right","toNode":"b3d6cc73f714568f","toSide":"left"},
+		{"id":"f1b5383efc8526c2","fromNode":"99b88c666ad05267","fromSide":"right","toNode":"3e9077dd199bb88c","toSide":"left"},
+		{"id":"d6413e3dd143dc38","fromNode":"0cce1326637c4db6","fromSide":"bottom","toNode":"bde38cd9b902f092","toSide":"top"},
+		{"id":"fa692587bf617d9d","fromNode":"bde38cd9b902f092","fromSide":"right","toNode":"4b3c13497f8c8ed1","toSide":"left"},
+		{"id":"b68fa7472fabbb3e","fromNode":"4b3c13497f8c8ed1","fromSide":"right","toNode":"0217ce4d11308e44","toSide":"left"},
+		{"id":"8f56370436bba637","fromNode":"0217ce4d11308e44","fromSide":"right","toNode":"c9e2c987e50eeeda","toSide":"left"},
+		{"id":"f8eeb87b9b84d0ba","fromNode":"c9e2c987e50eeeda","fromSide":"right","toNode":"ba4335902291e303","toSide":"left"},
+		{"id":"93377a574679a628","fromNode":"ba4335902291e303","fromSide":"right","toNode":"fb88d0d754033d34","toSide":"left"},
+		{"id":"12b13dd3111efd59","fromNode":"fb88d0d754033d34","fromSide":"right","toNode":"50f33312cf77c68a","toSide":"left"},
+		{"id":"3decb79eeb8d55fd","fromNode":"bde38cd9b902f092","fromSide":"bottom","toNode":"a9651a82e04a145b","toSide":"top"},
+		{"id":"07486713a92cf619","fromNode":"a9651a82e04a145b","fromSide":"right","toNode":"9ea047d36536756e","toSide":"left"},
+		{"id":"97ad3a0db05abf9d","fromNode":"9ea047d36536756e","fromSide":"right","toNode":"f08a1436920da50d","toSide":"left"},
+		{"id":"a4865a1d60f81888","fromNode":"a9651a82e04a145b","fromSide":"bottom","toNode":"85d25badb480501d","toSide":"top"}
+	]
+}
